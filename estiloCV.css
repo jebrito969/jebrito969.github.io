@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body {
+    background: url("imagenes/habilidades.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.img img{
+    width:180px ;
+    height: 180px; 
+}
+.encabezado .img {
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.encabezado {
+    width: 90%;
+    height: 450px;
+    margin: 1% auto;
+    border-radius: 20px;
+    background: url("imagenes/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px #fff;
+}
+
+.encabezado .intro{
+    color:#fff;
+    font-family:'Montserrat', serif;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.encabezado h1 {
+    color:#fff;
+    font-family:'Playfair Display', serif;
+    font-weight: bolder;
+    font-size: 45px;  
+}
+
+.encabezado h2 {
+    color:#fff;
+    font-family:'Playfair Display', serif;
+    font-weight: bolder;
+    font-size: 35px; 
+}
+
+.encabezado .contenedor .redes a{
+    display: inline-block;
+    background-color: #000;
+    color: #940253;
+    border: 1px solid #fff;
+    border-radius: 40%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    transition: .3s; 
+}
+.encabezado .contenedor .redes a:hover{
+    color: #fff;
+    background-color: #940253;
+    box-shadow: 0 0 20px #fff;
+}
+.centro {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.cuerpo {  
+    width: 40%;
+    height: auto;
+    background-color: #fff;
+    margin: 2% auto; 
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.cuerpo .titulo{
+    color: black;
+    margin-bottom: 2%;
+    font-family: 'Playfair Display', serif;
+    font-size: large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px black solid; 
+}
+
+.cuerpo .p-3{
+    color:black;
+    margin-bottom: 1%;
+    text-align: center;
+    font-family:'Playfair Display', serif;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.cuerpo p {
+    text-align: center;
+}
+
+.contacto {  
+    width: 90%;
+    height: auto;
+    margin: 5% auto; 
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #940253;
+    box-shadow: 0 0 20px #fff;
+}
+.contacto .contenido-seccion{
+    max-width: 90%;
+    margin: auto;
+    padding: 0 10px;
+}
+.contacto .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.contacto .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-around;
+}
+.contacto .contenido-seccion .fila .col{
+    margin-top: 50px;
+}
+.contacto .contenido-seccion .fila .col h2{
+    color: #fff;
+}
